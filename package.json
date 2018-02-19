@@ -12,7 +12,10 @@
     "type": "git",
     "url": "https://github.com/hoodiehq/hoodie-plugin-hello-world.git"
   },
-  "keywords": ["hoodie", "plugin"],
+  "keywords": [
+    "hoodie",
+    "plugin"
+  ],
   "author": "The Hoodie Community",
   "license": "Apache-2.0",
   "publishConfig": {

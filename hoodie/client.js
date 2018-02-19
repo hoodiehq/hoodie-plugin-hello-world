@@ -28,7 +28,7 @@ function hello (hoodie, options) {
     }
   })
 
-  .then(function (response) {
-    return response.body
-  })
+    .then(function (response) {
+      return response.body
+    })
 }

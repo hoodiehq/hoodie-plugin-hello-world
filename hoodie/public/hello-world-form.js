@@ -15,13 +15,13 @@ $form.addEventListener('submit', function (event) {
 
   hoodie.hello(options)
 
-  .then(function (text) {
-    alert(text)
-    $error.style.display = 'node'
-  })
+    .then(function (text) {
+      alert(text)
+      $error.style.display = 'node'
+    })
 
-  .catch(function (error) {
-    $error.style.display = 'block'
-    $error.textContent = error.toString()
-  })
+    .catch(function (error) {
+      $error.style.display = 'block'
+      $error.textContent = error.toString()
+    })
 })
